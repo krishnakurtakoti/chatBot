@@ -40,6 +40,11 @@ Follow reference 1.
  
 6.Run your application with command node src/index.js after installing all dependencies listed in the package.json file.
 
+
+7.Error: listen EADDRINUSE: address already in use :::5000
+then type the following command:
+sudo killall -s KILL node
+
  
  
 
