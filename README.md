@@ -23,6 +23,12 @@ Follow reference 1.
 2. Set up a Facebook application
 
 
+create a variables.env
+file in the root of your project directory. You should add this file to your .gitignore so that you do not commit it to your repository by accident. Here’s how your variables.env file should look like:
+
+    FACEBOOK_ACCESS_TOKEN=EAAghLzgZCMfEBAJntS...
+    DIALOGFLOW_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n<KEY>\n-----END PRIVATE KEY-----\n"
+    DIALOGFLOW_CLIENT_EMAIL=foo@<PROJECT_ID>.iam.gserviceaccount.com
 
 
 3.Set up Dialogflow integration
